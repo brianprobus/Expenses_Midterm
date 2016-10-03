@@ -1,14 +1,16 @@
-
+print ("")
 name1 = input("What is the first name?")
 while len(name1) < 1:
     print ("You didn't enter a name!")
     name1 = input("What is the first name?")
 
+print ("")
 name2 = input("What is the second name?")
 while len(name2) < 1:
     print ("You didn't enter a name!")
     name2 = input("What is the second name?")
 
+print ("")
 name3 = input("What is the third name?")
 while len(name3) < 1:
     print ("You didn't enter a name!")
