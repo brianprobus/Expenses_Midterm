@@ -1,3 +1,6 @@
+print ("This program will take three names, and their incomes and expenses, ")
+print ("then tell you if they are saving enough money every week!")
+
 print ("")
 name1 = input("What is the first name?")
 while len(name1) < 1:
@@ -19,26 +22,31 @@ while len(name3) < 1:
 print ("")    
 salary1 = input("What is " + str(name1) + "'s weekly income?")
 while len(salary1) < 1 or salary1.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     salary1 = input("What is " + str(name1) + "'s weekly income?")
 salary1 = float(salary1)
     
 mortgage1 = input("What is " + str(name1) + "'s weekly mortgage expense?")
 while len(mortgage1) < 1 or mortgage1.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     mortgage1 = input("What is " + str(name1) + "'s weekly mortgage expense?")
 mortgage1 = float(mortgage1)
 
 grocery1 = input("What is " + str(name1) + "'s weekly grocery expense?")
 while len(grocery1) < 1 or grocery1.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     grocery1 = input("What is " + str(name1) + "'s weekly grocery expense?")
 grocery1 = float(grocery1)
 
 power1 = input("What is " + str(name1) + "'s weekly power expense?")
 while len(power1) < 1 or power1.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     power1 = input("What is " + str(name1) + "'s weekly power expense?")
 power1 = float(power1)
 
 vehicle1 = input("What is your weekly vehicle expense?")
 while len(vehicle1) < 1 or vehicle1.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     vehicle1 = input("What is " + str(name1) + "'s weekly vehicle expense?")
 vehicle1 = float(vehicle1)
 
@@ -54,26 +62,31 @@ display_needed_savings1 = format(needed_savings1, ".2f")
 print ("")
 salary2 = input("What is " + str(name2) + "'s weekly income?")
 while len(salary2) < 1 or salary2.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     salary2 = input("What is " + str(name2) + "'s weekly income?")
 salary2 = float(salary2)
     
 mortgage2 = input("What is " + str(name2) + "'s weekly mortgage expense?")
 while len(mortgage2) < 1 or mortgage2.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     mortgage2 = input("What is " + str(name2) + "'s weekly mortgage expense?")
 mortgage2 = float(mortgage2)
 
 grocery2 = input("What is " + str(name2) + "'s weekly grocery expense?")
 while len(grocery2) < 1 or grocery2.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     grocery2 = input("What is " + str(name2) + "'s weekly grocery expense?")
 grocery2 = float(grocery2)
 
 power2 = input("What is " + str(name2) + "'s weekly power expense?")
 while len(power2) < 1 or power2.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     power2 = input("What is " + str(name2) + "'s weekly power expense?")
 power2 = float(power2)
 
 vehicle2 = input("What is your weekly vehicle expense?")
 while len(vehicle2) < 1 or vehicle2.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     vehicle2 = input("What is " + str(name2) + "'s weekly vehicle expense?")
 vehicle2 = float(vehicle2)
 
@@ -89,26 +102,31 @@ display_needed_savings2 = format(needed_savings2, ".2f")
 print ("")
 salary3 = input("What is " + str(name3) + "'s weekly income?")
 while len(salary3) < 1 or salary3.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     salary3 = input("What is " + str(name3) + "'s weekly income?")
 salary3 = float(salary3)
     
 mortgage3 = input("What is " + str(name3) + "'s weekly mortgage expense?")
 while len(mortgage3) < 1 or mortgage3.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     mortgage3 = input("What is " + str(name3) + "'s weekly mortgage expense?")
 mortgage3 = float(mortgage3)
 
 grocery3 = input("What is " + str(name3) + "'s weekly grocery expense?")
 while len(grocery3) < 1 or grocery3.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     grocery3 = input("What is " + str(name3) + "'s weekly grocery expense?")
 grocery3 = float(grocery3)
 
 power3 = input("What is " + str(name3) + "'s weekly power expense?")
 while len(power3) < 1 or power3.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     power3 = input("What is " + str(name3) + "'s weekly power expense?")
 power3 = float(power3)
 
 vehicle3 = input("What is your weekly vehicle expense?")
 while len(vehicle3) < 1 or vehicle3.isalpha():
+    print ("That's not a valid input. Please enter a number!")
     vehicle3 = input("What is " + str(name3) + "'s weekly vehicle expense?")
 vehicle3 = float(vehicle3)
 
